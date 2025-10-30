@@ -1,0 +1,42 @@
+# Ignore node_modules (both backend and frontend)
+node_modules/
+*/node_modules/
+
+# Ignore build and dist folders (generated files)
+build/
+dist/
+
+# Ignore environment files (important: never push secrets)
+.env.local
+.env.production
+.env.development
+
+# Ignore log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ignore system and temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Ignore VS Code settings and extensions
+.vscode/
+.history/
+
+# Ignore coverage/test results
+coverage/
+*.lcov
+
+# Ignore local database or cache files
+*.sqlite
+*.db
+.cache/
+.tmp/
+
+# Ignore backend specific stuff (if using Express or uploads)
+uploads/
+public/uploads/
