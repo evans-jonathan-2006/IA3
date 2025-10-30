@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.1
+Build-Jdk-Spec: 21
+Bundle-ManifestVersion: 2
+Bundle-Name: %fragmentName.win32.x86_64
+Bundle-SymbolicName: org.eclipse.cdt.core.win32.x86_64;singleton:=true
+Bundle-Version: 11.6.0.202406041555
+Fragment-Host: org.eclipse.cdt.core.native;bundle-version="[6.3.0,7.0.0)
+ "
+Eclipse-PlatformFilter: (&(osgi.os=win32)(osgi.arch=x86_64))
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Eclipse-BundleShape: dir
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse-cdt/cdt;pat
+ h="core/org.eclipse.cdt.core.win32.x86_64";commitId=9f85daf44bf867ca951
+ e536c5adba52b4f9a4a18
+
+Name: about.html
+SHA-256-Digest: RvukeXiD1GnUclxaggNaNsE9vlj0EQRiCopdFNLCinM=
+
+Name: os/win32/x86_64/starter.exe
+SHA-256-Digest: F5vo0/G/pesKvMtf9Len8et+z1i6ZDfyKkBRPa9iH4U=
+
+Name: os/win32/x86_64/pty.dll
+SHA-256-Digest: kpQ4S9vnMcLbCO8W6Qw2xhNTrJtEiAyjcFFvhgEXEQ4=
+
+Name: os/win32/x86_64/winpty.dll
+SHA-256-Digest: ZySe8PsBXwWIXb5hbBiOAJHyv5ZPude7ySDuLuS2wKM=
+
+Name: META-INF/maven/org.eclipse.cdt/org.eclipse.cdt.core.win32.x86_64/p
+ om.properties
+SHA-256-Digest: s5qkEBp8fiktUDS0FibonQy3fJYBsSLGYISd0ZeVD48=
+
+Name: os/win32/x86_64/spawner.dll
+SHA-256-Digest: JVYUehI46XKHuDChJLZ8AvVRK7/BAiqBazldMwphcBA=
+
+Name: plugin.properties
+SHA-256-Digest: 70wdNuXHtH09cvKwPYYwqj9WZFVEfMuMC6AVYGU6Dls=
+
+Name: META-INF/maven/org.eclipse.cdt/org.eclipse.cdt.core.win32.x86_64/p
+ om.xml
+SHA-256-Digest: 4FgHoLWe5U2C4DA7tNhhtfm21Y6zfCFSYppXiz1ZrRM=
+
+Name: os/win32/x86_64/winpty-agent.exe
+SHA-256-Digest: Bu3tbW7r9TE+nPEJqTkO9QF2mclJv2vTMw6jVdfYN9Q=
+

@@ -1,0 +1,8 @@
+[core]
+	editor = notepad
+[alias]
+	st = status
+[user]
+	name = evans
+	email = evansjonathan@karunya.edu.in
+	mail = evansjonathan@karunya.edu.in

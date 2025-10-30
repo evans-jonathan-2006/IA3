@@ -1,0 +1,159 @@
+00:00:00.004748 main     VirtualBox COM Server 7.1.4 r165100 win.amd64 (Oct 10 2024 18:57:17) release log
+00:00:00.004753 main     Log opened 2025-02-27T08:44:03.825659100Z
+00:00:00.004754 main     Build Type: release
+00:00:00.004761 main     OS Product: Windows 11
+00:00:00.004763 main     OS Release: 10.0.22631
+00:00:00.004763 main     OS Service Pack: 
+00:00:00.036056 main     DMI Product Name: HP Pavilion Laptop 14-dv2xxx
+00:00:00.058499 main     DMI Product Version:  
+00:00:00.058516 main     Firmware type: UEFI
+00:00:00.059320 main     Secure Boot: Enabled
+00:00:00.059338 main     Host RAM: 16052MB (15.6GB) total, 6261MB (6.1GB) available
+00:00:00.059345 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.059346 main     Process ID: 18100
+00:00:00.059347 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.059351 main     Windows Features:
+00:00:00.059351 main       Core Isolation (Memory Integrity): ENABLED
+00:00:00.160432          VirtualBox: object creation starts
+00:00:00.160651          Home directory: 'C:\Users\evans\.VirtualBox'
+00:00:00.160771          Installed Drivers:
+00:00:00.166879            C:\windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 7.1.4.15100)
+00:00:00.167953            C:\windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 7.1.4.15100)
+00:00:00.168684            C:\windows\system32\DRIVERS\VBoxSup.sys (Version: 7.1.4.15100)
+00:00:00.169888            C:\windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 7.1.4.15100)
+00:00:00.188659          Loading settings file "C:\Users\evans\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.191219          usbLibGetDevices: Starting USB device enumeration
+00:00:00.246467          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:00:00.246647          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:00:00.246827          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:00.249648          usbLibGetDevices: Found 3 USB devices, 0 captured
+00:00:00.249690          USB: Unknown USB device detected (idVendor: 0x04f3, idProduct: 0x0c00)
+00:00:00.249725          USB: Unknown USB device detected (idVendor: 0x13d3, idProduct: 0x3567)
+00:00:00.249736          USB: Unknown USB device detected (idVendor: 0x30c9, idProduct: 0x0065)
+00:00:00.303864          HostDnsMonitor: initializing
+00:00:00.319548          HostDnsMonitor: updating information
+00:00:00.319575          HostDnsMonitor: old information
+00:00:00.319575            no server entries
+00:00:00.319576            no domain set
+00:00:00.319576            no search string entries
+00:00:00.319577          HostDnsMonitor: new information
+00:00:00.319577            server 1: 192.168.0.111
+00:00:00.319578            server 2: 192.168.0.222
+00:00:00.319578            domain: karunya.edu
+00:00:00.319579            no search string entries
+00:00:00.321786          VD: VDInit finished with VINF_SUCCESS
+00:00:00.492018          Platform architecture set to 'x86'
+00:00:00.492630          Loading settings file "D:\kali\kali-linux-2024.4-virtualbox-amd64\kali-linux-2024.4-virtualbox-amd64.vbox" with version "1.19-windows"
+00:00:00.492956          Platform architecture set to 'x86'
+00:00:00.524723          OCI: Local config file 'C:\Users\evans\.VirtualBox\oci_config' does not exist
+00:00:00.524806          OCI: Original config file 'C:\Users\evans\.oci\config' does not exist
+00:00:00.524807          OCI: Reading profiles finished with status ERROR_SUCCESS
+00:00:00.524820          ExtPack: Created cloud provider 'OCI' (hrc=ERROR_SUCCESS)
+00:00:00.524907          VirtualBox: object created
+00:00:00.750141          Saving settings file "C:\Users\evans\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.753501          Finished saving settings file "C:\Users\evans\.VirtualBox\VirtualBox.xml"
+00:00:00.753920          Saving settings file "C:\Users\evans\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.757427          Finished saving settings file "C:\Users\evans\.VirtualBox\VirtualBox.xml"
+00:00:00.758679          Saving settings file "C:\Users\evans\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.769917          Finished saving settings file "C:\Users\evans\.VirtualBox\VirtualBox.xml"
+00:00:01.708353          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:01.954643          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:00:07.587502          Launched VM: 3204844576 pid: 8252 (0x203c) frontend: GUI/Qt name: kali-linux-2024.4-virtualbox-amd64
+00:00:07.624019          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:07.654313          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:00:14.242069          Platform architecture set to 'x86'
+00:00:14.618904          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:14.637958          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:00:16.016066          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+00:00:16.130050          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:24.919120          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:24.951532          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:24.991389          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Restoring)}, preserve=false aResultDetail=0
+00:00:25.004151          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Restoring)}, preserve=false aResultDetail=0
+00:00:25.901016          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:25.901450          HostDnsMonitorProxy::GetDomainName: karunya.edu
+00:00:25.901484          HostDnsMonitorProxy::GetNameServers:
+00:00:25.901487            name server 1: 192.168.0.111
+00:00:25.901490            name server 2: 192.168.0.222
+00:00:25.901513          HostDnsMonitorProxy::GetSearchStrings:
+00:00:25.901516            no search string entries
+00:00:29.492115          Saving settings file "D:\kali\kali-linux-2024.4-virtualbox-amd64\kali-linux-2024.4-virtualbox-amd64.vbox" with version "1.19-windows"
+00:00:29.496014          Finished saving settings file "D:\kali\kali-linux-2024.4-virtualbox-amd64\kali-linux-2024.4-virtualbox-amd64.vbox"
+00:00:29.546383          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:29.613737          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:29.655892          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:01:12.974842          Saving settings file "D:\kali\kali-linux-2024.4-virtualbox-amd64\kali-linux-2024.4-virtualbox-amd64.vbox" with version "1.19-windows"
+00:01:12.978894          Finished saving settings file "D:\kali\kali-linux-2024.4-virtualbox-amd64\kali-linux-2024.4-virtualbox-amd64.vbox"
+00:01:13.005803          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:13.006304          Saving settings file "D:\kali\kali-linux-2024.4-virtualbox-amd64\kali-linux-2024.4-virtualbox-amd64.vbox" with version "1.19-windows"
+00:01:13.012702          Finished saving settings file "D:\kali\kali-linux-2024.4-virtualbox-amd64\kali-linux-2024.4-virtualbox-amd64.vbox"
+00:01:13.040472          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:01:51.650427 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:01:51.686366 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:01:51.686445 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:01:51.686496 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:01:51.686655 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:06:04.689970 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:06:04.720024 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:06:04.733390 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:06:04.733849 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:17:05.980259 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:17:06.018694 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:17:06.018827 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:17:06.018913 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:17:06.019290 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:25:15.410436 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:25:15.447630 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:25:15.447735 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:25:15.447823 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:25:15.448152 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:50:34.400305 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:50:34.424681 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:50:34.425591 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:50:34.425831 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+01:43:33.202444 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:43:33.494756 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+01:43:33.494968 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+01:43:33.495153 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+01:43:33.503485 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+01:46:32.451132 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:46:32.489795 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+01:46:32.489870 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+01:46:32.489919 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+01:46:32.490076 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+01:49:01.778736 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:49:01.818338 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+01:49:01.818460 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+01:49:01.818578 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+01:49:01.818855 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+02:10:28.459135 USBPROXY usbLibGetDevices: Starting USB device enumeration
+02:10:28.495784 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+02:10:28.495857 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+02:10:28.495902 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&cab091c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+02:10:28.496065 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+02:14:38.271538          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:14:38.271871          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+02:14:38.300201          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Paused)}, preserve=false aResultDetail=0
+02:14:39.520944          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+02:14:39.535827          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:14:39.564760          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saving)}, preserve=false aResultDetail=0
+02:14:44.605438          Saving settings file "D:\kali\kali-linux-2024.4-virtualbox-amd64\kali-linux-2024.4-virtualbox-amd64.vbox" with version "1.19-windows"
+02:14:44.609908          Finished saving settings file "D:\kali\kali-linux-2024.4-virtualbox-amd64\kali-linux-2024.4-virtualbox-amd64.vbox"
+02:14:44.618426          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+02:14:44.647427          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+02:14:44.661521          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:14:44.664755          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+02:14:44.668440 SaveState Saving settings file "D:\kali\kali-linux-2024.4-virtualbox-amd64\kali-linux-2024.4-virtualbox-amd64.vbox" with version "1.19-windows"
+02:14:44.673925 SaveState Finished saving settings file "D:\kali\kali-linux-2024.4-virtualbox-amd64\kali-linux-2024.4-virtualbox-amd64.vbox"
+02:14:44.681986          ERROR [COM]: aRC=E_INVALIDARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+02:14:44.741233          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+02:14:44.790071          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:14:44.831339          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+02:14:45.649160          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:14:45.693966          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+02:14:57.406832 main     VirtualBox: object deletion starts
+02:14:57.414127 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium 'D:\kali\kali-linux-2024.4-virtualbox-amd64\kali-linux-2024.4-virtualbox-amd64.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+02:14:57.425040 main     HostDnsMonitor: shutting down ...
+02:14:57.425472 main     HostDnsMonitor: shut down
+02:14:57.427911 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+02:14:57.428120 main     VirtualBox: object deleted

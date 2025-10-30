@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wb.core.java.feature"
+      label="%featureName"
+      version="1.18.0.202411031218"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.wb.core.feature" version="0.0.0"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.wb.core.java"
+         download-size="2288"
+         install-size="4985"
+         version="1.12.100.202411031218"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.core.databinding"
+         download-size="301"
+         install-size="613"
+         version="1.9.700.202407141308"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.core.databinding.xsd"
+         version="1.0.100.202409211116"/>
+
+</feature>
